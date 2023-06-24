@@ -480,6 +480,7 @@ main{
 }
 .about_content{
     width: auto;
+    padding-bottom: 100px;
 }
 .about_content p{
     color: var(--black-color);
