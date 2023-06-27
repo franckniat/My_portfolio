@@ -499,11 +499,17 @@
         </section>
     </main>
     <script crossorigin src="js/main.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSNWSZM0S5"></script>
     <script>
         var loader = document.querySelector('.loader')
         window.addEventListener("load", (e)=>{
             loader.classList.add('close')
         })
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PSNWSZM0S5');
     </script>
 </body>
 </html>
